@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="Три за 105000"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="Пицца"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="50/50"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="Соусы"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="#F3EFEF"
+        app:cardCornerRadius="18dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_launcher_background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="234dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginStart="70dp">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Пепперони"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Фирменный томатний соус, сыр Моцарелла колбаса копченная"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"/>
+
+            <Button
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:background="#00000000"
+                android:text="от 45 000 сум"
+                android:textColor="#FBD52C"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="18dp"
+        app:cardBackgroundColor="#F6F3F3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_launcher_background" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="234dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginStart="70dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chopar special"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Двухслойная пицца 35 см"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:text="Фирменный томатныadcdas  kjk kjjk kjkjoiwjeoijuow woeijo coiejroiewrjfio"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"/>
+
+
+            <Button
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:background="#00000000"
+                android:text="от 99 000 сум"
+                android:textColor="#FBD52C"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="18dp"
+        app:cardBackgroundColor="#F6F3F3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_launcher_background" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="234dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginStart="70dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Лаззат"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Фирменный томатний соус, сыр Моцарелла, деликатесние мясный рул..."
+                android:textColor="@color/black"
+                android:textSize="16.5dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"/>
+
+            <Button
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:background="#00000000"
+                android:text="от 49 000 сум"
+                android:textColor="#FBD52C"
+                android:textSize="17dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="14dp"
+        app:cardBackgroundColor="#F6F2F2"
+        app:cardCornerRadius="22dp">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingVertical="10dp"
+            android:elevation="0dp"
+            app:labelVisibilityMode="labeled"
+            android:layout_gravity="center_vertical"
+            app:menu="@menu/bottom_navigation_menu" />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

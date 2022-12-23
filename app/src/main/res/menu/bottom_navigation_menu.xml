@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_1"
+        android:enabled="true"
+        android:icon="@drawable/ic_pizza"
+        android:title="Menu"/>
+    <item
+        android:id="@+id/scitka_id"
+        android:enabled="true"
+        android:icon="@drawable/ic_basket"
+        android:title="Skitka"/>
+    <item
+        android:id="@+id/account_id"
+        android:enabled="true"
+        android:icon="@drawable/ic_person"
+        android:title="Account"/>
+    <item
+        android:id="@+id/favorites_id"
+        android:enabled="true"
+        android:icon="@drawable/ic_basket"
+        android:title="Account"/>
+</menu>
